@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiResources1.MainPage"
+             BackgroundColor="white">
+
+   
+
+    <!--<VerticalStackLayout Spacing="20"
+                     BackgroundColor="Black"
+                     HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+        <Image>
+            <Image.Source>
+                <FontImageSource
+                FontFamily="IconsFont"
+                Glyph="&#xE800;"
+                Size="40"/>
+            </Image.Source>
+        </Image>
+
+        <Image>
+            <Image.Source>
+                <FontImageSource
+                        Glyph="&#xF1AC;"
+                        FontFamily="{OnPlatform Android=IconsFont}"
+                        Size="40"/>
+            </Image.Source>
+        </Image>
+
+        <Image BackgroundColor="white"
+               Source="{FontImage &#xE804;, FontFamily=IconsFont, Size=44}">
+
+        </Image>
+
+    </VerticalStackLayout>-->
+
+
+    <!--<VerticalStackLayout Spacing="20" HorizontalOptions="Center"
+                     VerticalOptions="Center">
+
+        <Label Text="Usando fontes "
+           FontSize="30"/>
+
+        <Label Text="Usando fontes "
+           FontSize="30"
+           FontFamily="Pacifico"/>
+
+        <Label Text="Usando fontes "
+             FontSize="30"
+             FontFamily="PTS75F"/>
+
+        <Label Text="Usando fontes "
+           FontSize="30"
+           FontFamily="MinhaFonte"/>
+        
+        <Label Text="Diferente propriedades de Fontes em diferentes plataformas"
+            FontSize="{OnPlatform iOS=20, Android=22, WinUI=24}">
+            <Label.FontFamily>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="iOS" Value="MarkerFelt-Thin" />
+                    <On Platform="Android" Value="Android" />
+                    <On Platform="WinUI" Value="Android" />
+                </OnPlatform>
+            </Label.FontFamily>
+        </Label>
+
+    </VerticalStackLayout>-->
+
+
+    <!--<ScrollView>
+        <VerticalStackLayout>
+            
+            <Image Source="tenis.jpg" Aspect="Fill"/>
+            <Image Source="computer.png" />
+            <Image Source="superman.gif" IsAnimationPlaying="True"/>
+            <Image Source="dotnet_bot.png" WidthRequest="100" HeightRequest="100" />
+            <Image Source="https://macoratti.net/Imagens/Carros/carro2.jpg" />
+            <Image>
+                <Image.Source>
+                        <UriImageSource Uri="https://macoratti.net/Imagens/Carros/carro4.jpg"
+                              CacheValidity="10:00:00:00" />
+            </Image.Source>
+        </Image>
+        </VerticalStackLayout>
+    </ScrollView>-->
+    
+    
+    <!--<Grid>
+        <Image>
+            <Image.Source>
+                <UriImageSource Uri="https://macoratti.net/Imagens/Carros/carro4.jpg" 
+                          CacheValidity="10:00:00:00" />
+            </Image.Source>
+        </Image>
+    </Grid>-->
+
+
+    <!--<Grid>
+        --><!--<Image Source="superman.gif" IsAnimationPlaying="True" />--><!--
+        <Image Source="https://macoratti.net/Imagens/Carros/carro2.jpg" />
+    </Grid>-->
+
+</ContentPage>
